@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <map tileWidth ="16" tileHeight="16" mapXBoundary ="800" mapYBoundary ="480">
+  <gameObjects>
+    <mario posX ="0" posY ="464"></mario>
+    <block type="1" posX="4" posY="14" containsItem ="0" containsCoin="0" ></block>
+    <block type="2" posX="8" posY="14" containsItem ="0" containsCoin="0" ></block>
+    <block type="3" posX="12" posY="14" containsItem ="0" containsCoin="0" ></block>
+    <block type="4" posX="16" posY="14" containsItem ="0" containsCoin="0" ></block>
+    <block type="5" posX="20" posY="14" containsItem ="0" containsCoin="0" ></block>
+    <block type="6" posX="24" posY="14" containsItem ="0" containsCoin="0" ></block>
+    <item type="1" posX="28" posY="14"></item>
+    <item type="2" posX="32" posY="14"></item>
+    <item type="3" posX="36" posY="14"></item>
+    <item type="4" posX="40" posY="14"></item>
+    <enemy type ="1" posX="44" posY="14"></enemy>
+  </gameObjects>
+
+</map>
+</XnaContent>
